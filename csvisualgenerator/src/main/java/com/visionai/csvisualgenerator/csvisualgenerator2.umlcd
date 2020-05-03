@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_uHKK4Ix4EeqM9-WbDGg43w">
+  <modelElement href="csvisualgenerator2.uml#_uaD4wIx4EeqM9-WbDGg43w"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_udaHsIx4EeqM9-WbDGg43w" name="CsvisualgeneratorApplication">
+    <modelElement href="csvisualgenerator2.uml#_uaFt8Ix4EeqM9-WbDGg43w"/>
+    <visualProperties xmi:id="_udaHsYx4EeqM9-WbDGg43w" position="30.0,30.0"/>
+    <stereotypes xmi:id="_udaHsox4EeqM9-WbDGg43w" name="LegacyStyledElement">
+      <modelElement href="csvisualgenerator2.uml#_uaHjIIx4EeqM9-WbDGg43w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_udaHs4x4EeqM9-WbDGg43w" name="Annotations">
+      <modelElement href="csvisualgenerator2.uml#_uaNpwIx4EeqM9-WbDGg43w"/>
+    </stereotypes>
+    <visibility xmi:id="_udaHtIx4EeqM9-WbDGg43w" label="+"/>
+    <operations xmi:id="_udaHtYx4EeqM9-WbDGg43w" name="main" staticOperation="true">
+      <modelElement href="csvisualgenerator2.uml#_uaKmcIx4EeqM9-WbDGg43w"/>
+      <stereotypes xmi:id="_udaHtox4EeqM9-WbDGg43w" name="StyledElement">
+        <modelElement href="csvisualgenerator2.uml#_uaL0kIx4EeqM9-WbDGg43w"/>
+      </stereotypes>
+      <visibility xmi:id="_udaHt4x4EeqM9-WbDGg43w" label="+"/>
+      <cardinality xmi:id="_udaHuIx4EeqM9-WbDGg43w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_udaHuYx4EeqM9-WbDGg43w" name="args">
+        <modelElement href="csvisualgenerator2.uml#_uaKmcYx4EeqM9-WbDGg43w"/>
+        <cardinality xmi:id="_udaHuox4EeqM9-WbDGg43w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_udaHu4x4EeqM9-WbDGg43w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

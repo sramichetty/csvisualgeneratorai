@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_pPqQcIx4EeqM9-WbDGg43w" name="csvisualgenerator">
+    <eAnnotations xmi:id="_pmjtgIx4EeqM9-WbDGg43w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_pmkUkIx4EeqM9-WbDGg43w" source="codegen">
+        <details xmi:id="_pmkUkYx4EeqM9-WbDGg43w" key="codegenDirectory" value="/csvisualgenerator/src/main/java"/>
+        <details xmi:id="_qjZJMIx4EeqM9-WbDGg43w" key="AssociatedSourceCode" value="/csvisualgenerator/src/main/java/com/visionai/csvisualgenerator/Controller.java;1014876238/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_pvYSUIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_pvY5YIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_pvY5YYx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_pvZgcIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_pvZgcYx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_pvaHgIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_pvaukIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_pvaukYx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_pvb8sIx4EeqM9-WbDGg43w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_puorcIx4EeqM9-WbDGg43w" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pupSgIx4EeqM9-WbDGg43w" name="visionai">
+        <packagedElement xmi:type="uml:Package" xmi:id="_puyccIx4EeqM9-WbDGg43w" name="csvisualgenerator">
+          <packagedElement xmi:type="uml:Package" xmi:id="_puyccYx4EeqM9-WbDGg43w" name="model">
+            <packagedElement xmi:type="uml:Class" xmi:id="_p578gIx4EeqM9-WbDGg43w" name="Customer"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_puzqkIx4EeqM9-WbDGg43w" name="service">
+            <packagedElement xmi:type="uml:Class" xmi:id="_p6BcEIx4EeqM9-WbDGg43w" name="CustomerService"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_pvNTMIx4EeqM9-WbDGg43w" name="Controller">
+            <ownedAttribute xmi:id="_p6U-EIx4EeqM9-WbDGg43w" name="cs" visibility="private" type="_p6BcEIx4EeqM9-WbDGg43w" association="_p6puMIx4EeqM9-WbDGg43w"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_p6f9MIx4EeqM9-WbDGg43w" name="setDataInDB" specification="_pvcjwIx4EeqM9-WbDGg43w">
+              <language>java</language>
+              <body>cs.saveustomerData();
+
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_pvcjwIx4EeqM9-WbDGg43w" name="setDataInDB" method="_p6f9MIx4EeqM9-WbDGg43w" raisedException="_p6LNEIx4EeqM9-WbDGg43w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_p6puMIx4EeqM9-WbDGg43w" name="" memberEnd="_p6puMYx4EeqM9-WbDGg43w _p6U-EIx4EeqM9-WbDGg43w">
+            <ownedEnd xmi:id="_p6puMYx4EeqM9-WbDGg43w" name="" type="_pvNTMIx4EeqM9-WbDGg43w" association="_p6puMIx4EeqM9-WbDGg43w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xLRcIIx4EeqM9-WbDGg43w" name="CsvisualgeneratorApplication" visibility="public">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xLRcIYx4EeqM9-WbDGg43w" name="main" visibility="public" specification="_xLRcJIx4EeqM9-WbDGg43w" isReentrant="true">
+              <ownedParameter xmi:id="_xLRcIox4EeqM9-WbDGg43w" name="args" visibility="public" effect="create">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLRcI4x4EeqM9-WbDGg43w" visibility="public" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>SpringApplication.run(CsvisualgeneratorApplication.class, args);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_xLRcJIx4EeqM9-WbDGg43w" name="main" visibility="public" isStatic="true" method="_xLRcIYx4EeqM9-WbDGg43w">
+              <ownedParameter xmi:id="_xLRcJYx4EeqM9-WbDGg43w" name="args" visibility="public" effect="create">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xLRcJox4EeqM9-WbDGg43w" visibility="public" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pu0RoIx4EeqM9-WbDGg43w" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pu04sIx4EeqM9-WbDGg43w" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_pu1fwIx4EeqM9-WbDGg43w" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_pu1fwYx4EeqM9-WbDGg43w" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_pu2G0Ix4EeqM9-WbDGg43w" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_p6D4UYx4EeqM9-WbDGg43w" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_pu2t4Ix4EeqM9-WbDGg43w" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_pu2t4Yx4EeqM9-WbDGg43w" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_pu3U8Ix4EeqM9-WbDGg43w" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_p6GUkIx4EeqM9-WbDGg43w" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_p6JX4Ix4EeqM9-WbDGg43w" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pu38AIx4EeqM9-WbDGg43w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pu4jEIx4EeqM9-WbDGg43w" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_p6LNEIx4EeqM9-WbDGg43w" name="FileNotFoundException"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_pmn-8Ix4EeqM9-WbDGg43w">
+      <eAnnotations xmi:id="_pmtegIx4EeqM9-WbDGg43w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_pm0MMIx4EeqM9-WbDGg43w" base_Package="_pPqQcIx4EeqM9-WbDGg43w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pvV2EIx4EeqM9-WbDGg43w" base_Element="_pvNTMIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Annotations xmi:id="_pvj4gIx4EeqM9-WbDGg43w" base_Element="_pvcjwIx4EeqM9-WbDGg43w">
+    <annotations xmi:id="_pvkfkIx4EeqM9-WbDGg43w" name="RequestMapping">
+      <annotationParameters xmi:id="_pvlGoIx4EeqM9-WbDGg43w" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_p6lcwIx4EeqM9-WbDGg43w" value="&quot;feedCustomerData&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_pvni4Ix4EeqM9-WbDGg43w" base_Element="_pvNTMIx4EeqM9-WbDGg43w">
+    <annotations xmi:id="_pvoJ8Ix4EeqM9-WbDGg43w" name="RestController"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_p5_m4Ix4EeqM9-WbDGg43w" base_Element="_p578gIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Reference xmi:id="_p6D4UIx4EeqM9-WbDGg43w" base_Element="_p6BcEIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Reference xmi:id="_p6FtgIx4EeqM9-WbDGg43w" base_Element="_p6D4UYx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Reference xmi:id="_p6IJwIx4EeqM9-WbDGg43w" base_Element="_p6GUkIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Reference xmi:id="_p6KmAIx4EeqM9-WbDGg43w" base_Element="_p6JX4Ix4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Reference xmi:id="_p6MbMIx4EeqM9-WbDGg43w" base_Element="_p6LNEIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Annotations xmi:id="_p6WMMIx4EeqM9-WbDGg43w" base_Element="_p6U-EIx4EeqM9-WbDGg43w">
+    <annotations xmi:id="_p6WMMYx4EeqM9-WbDGg43w" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_p6sxgIx4EeqM9-WbDGg43w" base_Element="_p6puMIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xLTRUIx4EeqM9-WbDGg43w" base_Element="_xLRcIIx4EeqM9-WbDGg43w"/>
+  <UMLLabProfile:Annotations xmi:id="_xLT4YIx4EeqM9-WbDGg43w" base_Element="_xLRcIIx4EeqM9-WbDGg43w">
+    <annotations xmi:id="_xLT4YYx4EeqM9-WbDGg43w" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_xLUfcIx4EeqM9-WbDGg43w" base_Element="_xLRcJIx4EeqM9-WbDGg43w"/>
+</xmi:XMI>
